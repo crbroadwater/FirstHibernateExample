@@ -22,10 +22,10 @@ public class CustomerData {
 		
 		Customer c1 = new Customer();
 		c1.setId(1);
-		c1.setFirstName("Chandler");
-		c1.setLastName("Broadwater");
-		c1.setAddress("Salt Lake City");
-		c1.setEmail("Chandler.ray.broadwater@gmail.com");
+		c1.setFirstName("Cha");
+		c1.setLastName("Car");
+		c1.setAddress("Sa");
+		c1.setEmail("Cha");
 		session.save(c1);
 		tran.commit();
 		System.out.println("successfully saved");
